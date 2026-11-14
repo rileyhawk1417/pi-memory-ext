@@ -1,0 +1,13 @@
+{
+	"name": "pi-memory-ext",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"packageManager": "pnpm@10.0.0",
+	"description": "Hierarchical markdown memory extension for pi (index-first, scoped, generated indexes)",
+	"license": "MIT",
+	"scripts": {
+		"test": "node --experimental-strip-types smoke.ts",
+		"smoke": "node --experimental-strip-types smoke.ts"
+	}
+}
